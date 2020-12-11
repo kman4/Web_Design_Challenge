@@ -1,6 +1,6 @@
 # Import Dependencies
 import pandas as pd
-import os 
+
 
 # Make a reference to the books.csv file path
 filepath = os.path.join("D:\Github\Web_Design_Challenge\Resources\cities.csv")
