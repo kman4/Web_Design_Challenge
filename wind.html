@@ -2,11 +2,10 @@
 <html lang=en>
 
 <head>
-
+<meta charset = "UTF-8">
+<title>Wind Speed</title>
 <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/superhero/bootstrap.min.css" rel="stylesheet" 
 integrity="sha384-LS4/wo5Z/8SLpOLHs0IbuPAGOWTx30XSoZJ8o7WKH0UJhRpjXXTpODOjfVnNjeHu" crossorigin="anonymous">
-<meta charset = "UTF-8">
-<title>Latitude</title>
 <link rel="stylesheet" type = "text/css" href= "style.css">
 </head>
 
@@ -14,7 +13,7 @@ integrity="sha384-LS4/wo5Z/8SLpOLHs0IbuPAGOWTx30XSoZJ8o7WKH0UJhRpjXXTpODOjfVnNje
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary no-pad">
   <a class="navbar-brand offset-1 alert-secondary bigger-block" href="index.html" ><h2>Latitude</h2></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -43,13 +42,14 @@ integrity="sha384-LS4/wo5Z/8SLpOLHs0IbuPAGOWTx30XSoZJ8o7WKH0UJhRpjXXTpODOjfVnNje
     <div class = "row mt-5">
         <div class = "col-7">
             <div class="jumbotron">
-                <h1>Summary: Latitude vs X</h1>
+                <h1>Wind Speed</h1>
                 <hr class = "my-4">
                 <p class="lead">
-                <img src="images/fig1.png" alt="Max Temp" style="float:left;width:300px;height:250px;padding-right:10px;display:block;">
-                The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                <p class ="lead">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. 
-                 Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                <img src="images/fig4.png" alt="Wind Speed" style="width:100%;height:95%;padding:10px;display:block;">
+                </p>
+                <br>
+                <p class ="lead">Next to no relationship between Latitude and Wind Speed although higher winds were observed at higher Northern Latitudes.
+                </p>
             </div>
         </div>
         <div class= "col-5">
@@ -69,7 +69,7 @@ integrity="sha384-LS4/wo5Z/8SLpOLHs0IbuPAGOWTx30XSoZJ8o7WKH0UJhRpjXXTpODOjfVnNje
                         <a href="cloud.html"><img src="images/fig3.png" alt="Cloudiness" style="width:100%;height:90%;display:block;"></a>
                         </div>
                         <div class = "col-6">
-                        <a href="wind.html"><img src="images/fig4.png" alt="Wind Speed" style="width:100%;height:90%;display:block;"></a>
+                        <a href="wind.html"><img src="images/fig4.png" alt="Wind Speed" style="width:100%;height:90%;display:block;" class="active-link"></a>
                         </div>  
                     </div>                                                    
             </div>
@@ -77,11 +77,13 @@ integrity="sha384-LS4/wo5Z/8SLpOLHs0IbuPAGOWTx30XSoZJ8o7WKH0UJhRpjXXTpODOjfVnNje
     </div>
 </div>
 
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
 integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
 integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
 integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>
