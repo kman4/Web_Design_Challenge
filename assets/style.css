@@ -1,4 +1,4 @@
-.blueback {background:#5bde96; display: block; height:100%;}
+.blueback {background:#070707; display: block; height:100%;}
 .no-pad {margin:0 !important;
     padding: 0px !important;}
 .bigger-block{display: block; width: 200px; text-align: center;}
@@ -7,9 +7,12 @@
     min-height: 50px;
     padding: 5px;
     margin: 5px;
-    color: #030504;
+    color: #40af77;
   }
 .active-link{
-    border: 5px solid #010203;
+    border: 5px solid #abcc16;
   }
-  
+ .nav-link{
+   color:bisque;
+
+ } 
